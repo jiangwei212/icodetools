@@ -7,7 +7,7 @@
 	2》、方法只允许有一个参数是String类型的，而这个参数就是打印的日志tag
 	3》、方法名称可以随意指定，但是必须在icodetools.bat中保持一致
 	所以最终的方法模板为: public static XXX YYY(String tag)
-	这个类的名称不可以变动，而且包名必须是cn.wjdiankong.jw.utils.JWUtils。
+	这个类的名称可以变动，但是必须和icodetools.bat中保持一致
 
 4、当前目录下的compile_java.bat是合成jar使用，不可以随便修改
 
